@@ -33,7 +33,7 @@
                 <div class="input-group" >
                     <input type="text" class="form-control" placeholder="关键字...">
                         <span class="input-group-btn">
-                            <button class="btn btn-default" type="button">搜索</button>
+                            <button class="btn btn-success" type="button">搜索</button>
                         </span>
                 </div>
             </div>
