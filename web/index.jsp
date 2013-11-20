@@ -26,11 +26,11 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-8">
-            <img src="image/1_03.gif">
+            <img src="image/logo.png">
         </div>
-        <div class="col-lg-2 pull-right">
+        <div class="col-lg-3 pull-right">
             <div class="nav-search">
-                <div class="input-group" >
+                <div class="input-group">
                     <input type="text" class="form-control" placeholder="关键字...">
                         <span class="input-group-btn">
                             <button class="btn btn-default" type="button">搜索</button>
@@ -41,45 +41,77 @@
     </div>
     <div class="masthead">
         <ul class="nav nav-justified">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Downloads</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li class="active"><a href="#">首页</a></li>
+            <li><a href="#">电影</a></li>
+            <li><a href="#">游戏</a></li>
+            <li><a href="#">软件</a></li>
+            <li><a href="#">Android专区</a></li>
+            <li><a href="#">IOS专区</a></li>
         </ul>
     </div>
 
     <!-- Jumbotron -->
     <div class="jumbotron">
-        <h1>Marketing stuff!</h1>
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.</p>
-        <p><a class="btn btn-lg btn-success" href="#" role="button">Get started today</a></p>
+        <h1>资源共享计划</h1>
+        <p class="lead">我们把观滔用户下载最热门的，最新的资源转换成内网资源供您使用。</p>
+        <p><a class="btn btn-lg btn-success" href="#" role="button">有疑问？点这里</a></p>
     </div>
 
     <!-- Example row of columns -->
     <div class="row">
         <div class="col-lg-4">
-            <h2>Safari bug warning!</h2>
-            <p class="text-danger">Safari exhibits a bug in which resizing your browser horizontally causes rendering errors in the justified nav that are cleared upon refreshing.</p>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">电影资源</h3>
+                </div>
+                <div class="panel-body">
+                    <p>Panel content</p>
+                    <p>Panel content</p>
+                    <p>Panel content</p>
+                    <p>Panel content</p>
+                    <p>Panel content</p>
+                    <p>Panel content</p>
+                    <p>Panel content</p>
+                </div>
+            </div>
         </div>
         <div class="col-lg-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    <h3 class="panel-title">游戏资源</h3>
+                </div>
+                <div class="panel-body">
+                    <p>Panel content</p>
+                    <p>Panel content</p>
+                    <p>Panel content</p>
+                    <p>Panel content</p>
+                    <p>Panel content</p>
+                    <p>Panel content</p>
+                    <p>Panel content</p>
+                </div>
+            </div>
         </div>
         <div class="col-lg-4">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
-            <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h3 class="panel-title">软件资源</h3>
+                </div>
+                <div class="panel-body">
+                    <p>Panel content</p>
+                    <p>Panel content</p>
+                    <p>Panel content</p>
+                    <p>Panel content</p>
+                    <p>Panel content</p>
+                    <p>Panel content</p>
+                    <p>Panel content</p>
+                </div>
+            </div>
         </div>
     </div>
 
     <!-- Site footer -->
     <div class="footer">
-        <p>&copy; Company 2013</p>
+        <p>GuanTao &copy; High Tech 2013.</p>
     </div>
 
 </div> <!-- /container -->
