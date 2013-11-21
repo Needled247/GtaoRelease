@@ -60,51 +60,48 @@
     <!-- Example row of columns -->
     <div class="row">
         <div class="col-lg-4">
-            <div class="panel panel-primary">
+            <div class="panel panel-danger">
                 <div class="panel-heading">
-                    <h3 class="panel-title">电影资源</h3>
+                    <h3 class="panel-title">热门电影资源</h3>
                 </div>
-                <div class="panel-body">
-                    <p>Panel content</p>
-                    <p>Panel content</p>
-                    <p>Panel content</p>
-                    <p>Panel content</p>
-                    <p>Panel content</p>
-                    <p>Panel content</p>
-                    <p>Panel content</p>
-                </div>
+                <ul class="list-group">
+                    <li class="list-group-item">Cras justo odio</li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Morbi leo risus</li>
+                    <li class="list-group-item">Porta ac consectetur ac</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                    <li class="list-group-item" style="text-align: right"><a href="#">更多...</a> </li>
+                </ul>
             </div>
         </div>
         <div class="col-lg-4">
             <div class="panel panel-success">
                 <div class="panel-heading">
-                    <h3 class="panel-title">游戏资源</h3>
+                    <h3 class="panel-title">热门游戏资源</h3>
                 </div>
-                <div class="panel-body">
-                    <p>Panel content</p>
-                    <p>Panel content</p>
-                    <p>Panel content</p>
-                    <p>Panel content</p>
-                    <p>Panel content</p>
-                    <p>Panel content</p>
-                    <p>Panel content</p>
-                </div>
+                <ul class="list-group">
+                    <li class="list-group-item">Cras justo odio</li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Morbi leo risus</li>
+                    <li class="list-group-item">Porta ac consectetur ac</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                    <li class="list-group-item" style="text-align: right"><a href="#">更多...</a> </li>
+                </ul>
             </div>
         </div>
         <div class="col-lg-4">
             <div class="panel panel-info">
                 <div class="panel-heading">
-                    <h3 class="panel-title">软件资源</h3>
+                    <h3 class="panel-title">热门软件资源</h3>
                 </div>
-                <div class="panel-body">
-                    <p>Panel content</p>
-                    <p>Panel content</p>
-                    <p>Panel content</p>
-                    <p>Panel content</p>
-                    <p>Panel content</p>
-                    <p>Panel content</p>
-                    <p>Panel content</p>
-                </div>
+                <ul class="list-group">
+                    <li class="list-group-item">Cras justo odio</li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Morbi leo risus</li>
+                    <li class="list-group-item">Porta ac consectetur ac</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                    <li class="list-group-item" style="text-align: right"><a href="#">更多...</a> </li>
+                </ul>
             </div>
         </div>
     </div>
