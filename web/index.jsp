@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
 
-    <title>Justified Nav Template for Bootstrap</title>
+    <title>观滔科技</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -65,11 +65,9 @@
                     <h3 class="panel-title">热门电影资源</h3>
                 </div>
                 <ul class="list-group">
-                    <li class="list-group-item">Cras justo odio</li>
-                    <li class="list-group-item">Dapibus ac facilisis in</li>
-                    <li class="list-group-item">Morbi leo risus</li>
-                    <li class="list-group-item">Porta ac consectetur ac</li>
-                    <li class="list-group-item">Vestibulum at eros</li>
+                    <div id="film">
+
+                    </div>
                     <li class="list-group-item" style="text-align: right"><a href="#">更多...</a> </li>
                 </ul>
             </div>
@@ -80,11 +78,9 @@
                     <h3 class="panel-title">热门游戏资源</h3>
                 </div>
                 <ul class="list-group">
-                    <li class="list-group-item">Cras justo odio</li>
-                    <li class="list-group-item">Dapibus ac facilisis in</li>
-                    <li class="list-group-item">Morbi leo risus</li>
-                    <li class="list-group-item">Porta ac consectetur ac</li>
-                    <li class="list-group-item">Vestibulum at eros</li>
+                    <div id="game">
+
+                    </div>
                     <li class="list-group-item" style="text-align: right"><a href="#">更多...</a> </li>
                 </ul>
             </div>
@@ -95,11 +91,9 @@
                     <h3 class="panel-title">热门软件资源</h3>
                 </div>
                 <ul class="list-group">
-                    <li class="list-group-item">Cras justo odio</li>
-                    <li class="list-group-item">Dapibus ac facilisis in</li>
-                    <li class="list-group-item">Morbi leo risus</li>
-                    <li class="list-group-item">Porta ac consectetur ac</li>
-                    <li class="list-group-item">Vestibulum at eros</li>
+                    <div  id="soft">
+
+                    </div>
                     <li class="list-group-item" style="text-align: right"><a href="#">更多...</a> </li>
                 </ul>
             </div>
@@ -119,5 +113,6 @@
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="js/jquery-1.8.3.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/index.js"></script>
 </body>
 </html>

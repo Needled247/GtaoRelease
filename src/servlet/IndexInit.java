@@ -36,7 +36,7 @@ public class IndexInit extends HttpServlet {
                 +"\"soft\":"+this.getShareInfoJson(softInitQuery)
                 +"\"game\":"+this.getShareInfoJson(gameInitQuery);
         if(rtnJson.length()>0){
-            rtnJson = rtnJson.substring(0,rtnJson.lastIndexOf(","));
+            rtnJson = rtnJson.substring(0,rtnJson.length()-1);
         }
         rtnJson += "}";
         //´òÓ¡
@@ -58,7 +58,7 @@ public class IndexInit extends HttpServlet {
                 info.append("{\"id\":\""+rs.getInt(1)+"\",")
                     .append("\"name\":\""+rs.getString(2)+"\"},");
             }
-            if(info.length()!=0){
+            if(info.length()>2){
                 info.deleteCharAt(info.lastIndexOf(","));
             }
             info.append("],");
