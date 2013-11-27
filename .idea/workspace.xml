@@ -2,23 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ebf2e86-a69c-4d46-b5f2-86610c36f4d8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/image/demo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Film.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/servlet/FilmInit.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/More.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Search.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/film.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/filmDetail.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/gameDetail.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/mobileDetail.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/softDetail.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/servlet/IndexInit.java" afterPath="$PROJECT_DIR$/src/servlet/IndexInit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/db/config.properties" afterPath="$PROJECT_DIR$/src/db/config.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/index.js" afterPath="$PROJECT_DIR$/web/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="GtaoRelease.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="7ebf2e86-a69c-4d46-b5f2-86610c36f4d8" time="1385345667753" ignored="false" />
+    <file path="/Dummy.txt" changelist="7ebf2e86-a69c-4d46-b5f2-86610c36f4d8" time="1385517946568" ignored="false" />
     <file path="/config.properties" changelist="7ebf2e86-a69c-4d46-b5f2-86610c36f4d8" time="1385185316926" ignored="false" />
     <file path="/ConnPool.java" changelist="7ebf2e86-a69c-4d46-b5f2-86610c36f4d8" time="1384832631205" ignored="false" />
     <file path="/index.jsp" changelist="7ebf2e86-a69c-4d46-b5f2-86610c36f4d8" time="1385369930532" ignored="false" />
-    <file path="/web.xml" changelist="7ebf2e86-a69c-4d46-b5f2-86610c36f4d8" time="1385025293235" ignored="false" />
+    <file path="/web.xml" changelist="7ebf2e86-a69c-4d46-b5f2-86610c36f4d8" time="1385484327312" ignored="false" />
     <file path="/style.css" changelist="7ebf2e86-a69c-4d46-b5f2-86610c36f4d8" time="1384853286803" ignored="false" />
-    <file path="/bootstrap.css" changelist="7ebf2e86-a69c-4d46-b5f2-86610c36f4d8" time="1384854027443" ignored="false" />
+    <file path="/bootstrap.css" changelist="7ebf2e86-a69c-4d46-b5f2-86610c36f4d8" time="1385534993901" ignored="false" />
     <file path="/index.js" changelist="7ebf2e86-a69c-4d46-b5f2-86610c36f4d8" time="1385353103445" ignored="false" />
-    <file path="/IndexInit.java" changelist="7ebf2e86-a69c-4d46-b5f2-86610c36f4d8" time="1385192038083" ignored="false" />
+    <file path="/IndexInit.java" changelist="7ebf2e86-a69c-4d46-b5f2-86610c36f4d8" time="1385483504487" ignored="false" />
+    <file path="/Film.jsp" changelist="7ebf2e86-a69c-4d46-b5f2-86610c36f4d8" time="1385535003420" ignored="false" />
+    <file path="/FilmInit.java" changelist="7ebf2e86-a69c-4d46-b5f2-86610c36f4d8" time="1385541860443" ignored="false" />
+    <file path="/film.js" changelist="7ebf2e86-a69c-4d46-b5f2-86610c36f4d8" time="1385484488120" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +49,6 @@
     <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -75,6 +85,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -84,37 +95,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <file leaf-file-name="filmDetail.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/filmDetail.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="15" selection-start="432" selection-end="432" vertical-scroll-proportion="-3.5294118">
+            <state line="41" column="30" selection-start="1599" selection-end="1599" vertical-scroll-proportion="-0.88235295">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/js/index.js">
+      <file leaf-file-name="More.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/More.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="82" selection-start="363" selection-end="363" vertical-scroll-proportion="0.5504587">
+            <state line="118" column="0" selection-start="3937" selection-end="3937" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IndexInit.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/servlet/IndexInit.java">
+      <file leaf-file-name="Film.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/Film.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="86" selection-start="1171" selection-end="1171" vertical-scroll-proportion="0.0">
+            <state line="60" column="69" selection-start="2016" selection-end="2016" vertical-scroll-proportion="-15.882353">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConnPool.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/db/ConnPool.java">
+      <file leaf-file-name="film.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/js/film.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="60" selection-start="502" selection-end="508" vertical-scroll-proportion="0.0">
+            <state line="4" column="19" selection-start="136" selection-end="136" vertical-scroll-proportion="0.3960396">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FilmInit.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/servlet/FilmInit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="58" selection-start="1521" selection-end="1546" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -141,12 +161,18 @@
         <option value="$PROJECT_DIR$/src/config.properties" />
         <option value="$PROJECT_DIR$/src/db/ConnPool.java" />
         <option value="$PROJECT_DIR$/web/css/style.css" />
-        <option value="$PROJECT_DIR$/web/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/db/config.properties" />
-        <option value="$PROJECT_DIR$/src/servlet/IndexInit.java" />
         <option value="$PROJECT_DIR$/web/js/index.js" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/Search.jsp" />
+        <option value="$PROJECT_DIR$/web/More.jsp" />
+        <option value="$PROJECT_DIR$/web/filmDetail.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/servlet/IndexInit.java" />
+        <option value="$PROJECT_DIR$/web/Film.jsp" />
+        <option value="$PROJECT_DIR$/web/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/src/servlet/FilmInit.java" />
+        <option value="$PROJECT_DIR$/web/js/film.js" />
       </list>
     </option>
   </component>
@@ -255,7 +281,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="image" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -291,28 +317,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GtaoRelease" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GtaoRelease" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -335,9 +343,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\HP\Desktop\GtaoRelease\web\image" />
+      <recent name="C:\Users\HP\Desktop\GtaoRelease\web" />
       <recent name="C:\Users\HP\Desktop\GtaoRelease\web\js" />
       <recent name="C:\Users\HP\Desktop\GtaoRelease\web\css" />
-      <recent name="C:\Users\HP\Desktop\GtaoRelease\web" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\HP\Desktop\GtaoRelease\src\db" />
@@ -413,6 +421,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -536,7 +551,11 @@
       <created>1385112734535</created>
       <updated>1385112734535</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2013-11-25">
+      <created>1385370702723</created>
+      <updated>1385370702723</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -582,9 +601,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20960365" sideWeight="0.58131486" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20960365" sideWeight="0.58131486" order="0" side_tool="false" content_ui="combo" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4186851" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4186851" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -635,7 +654,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="2013-11-22" />
+    <option name="LAST_COMMIT_MESSAGE" value="2013-11-25" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -652,6 +671,7 @@
     <MESSAGE value="2013-11-20" />
     <MESSAGE value="2013-11-21" />
     <MESSAGE value="2013-11-22" />
+    <MESSAGE value="2013-11-25" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -661,118 +681,111 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="22" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="186" selection-start="1929" selection-end="1929" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="151" selection-start="4008" selection-end="4008" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/jquery-1.8.3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="23" selection-start="397" selection-end="397" vertical-scroll-proportion="0.66561514" />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/meta.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="23" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.33123028" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4063" column="45" selection-start="66298" selection-end="66298" vertical-scroll-proportion="0.6766917" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="22" selection-start="571" selection-end="571" vertical-scroll-proportion="0.35672516">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://E:/Coding/mysql-connector-java-5.0.8/mysql-connector-java-5.0.8-bin.jar!/com/mysql/jdbc/SQLError.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="0" selection-start="4880" selection-end="4880" vertical-scroll-proportion="0.41509435" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/db/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="40" selection-start="65" selection-end="65" vertical-scroll-proportion="0.1980198" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/db/ConnPool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="60" selection-start="502" selection-end="508" vertical-scroll-proportion="0.0">
+        <state line="22" column="60" selection-start="502" selection-end="508" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="42" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/gameDetail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/softDetail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/mobileDetail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="14" selection-start="159" selection-end="159" vertical-scroll-proportion="-6.1764708" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Search.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/More.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="118" column="0" selection-start="3937" selection-end="3937" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/filmDetail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="30" selection-start="1599" selection-end="1599" vertical-scroll-proportion="-0.88235295">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="30" selection-start="801" selection-end="801" vertical-scroll-proportion="0.8245614">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="15" selection-start="432" selection-end="432" vertical-scroll-proportion="-3.5294118">
+        <state line="14" column="23" selection-start="0" selection-end="3937" vertical-scroll-proportion="0.111524165">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/servlet/IndexInit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="86" selection-start="1171" selection-end="1171" vertical-scroll-proportion="0.0">
+        <state line="89" column="120" selection-start="2909" selection-end="2909" vertical-scroll-proportion="1.0344827">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/index.js">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/sectional.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="82" selection-start="363" selection-end="363" vertical-scroll-proportion="0.5504587">
+        <state line="10" column="21" selection-start="355" selection-end="355" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="0" selection-start="825" selection-end="825" vertical-scroll-proportion="0.37931034">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Film.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="69" selection-start="2016" selection-end="2016" vertical-scroll-proportion="-15.882353">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/FilmInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="58" selection-start="1521" selection-end="1546" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/film.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="19" selection-start="136" selection-end="136" vertical-scroll-proportion="0.3960396">
           <folding />
         </state>
       </provider>

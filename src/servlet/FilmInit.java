@@ -14,12 +14,12 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 /**
- * 主页初始化。
+ * 电影显示页
  * User: JH
- * Date: 13-11-21
- * Time: 下午5:11
+ * Date: 13-11-26
+ * Time: 下午4:40
  */
-public class IndexInit extends HttpServlet {
+public class FilmInit extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         this.doPost(request,response);
@@ -27,44 +27,32 @@ public class IndexInit extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        response.setContentType("text/json;charset=GBK");
+        response.setContentType("text/html;charset=GBK");
         PrintWriter out = response.getWriter();
-        String filmInitQuery = "SELECT ID,FILENAME FROM rl_film WHERE STATUS='999'";
-        String softInitQuery = "SELECT ID,FILENAME FROM rl_software WHERE STATUS='999'";
-        String gameInitQuery = "SELECT ID,FILENAME FROM rl_game WHERE STATUS='999'";
-        //拼接JSON字符串
-        String rtnJson = "{\"film\":"+this.getShareInfoJson(filmInitQuery)
-                +"\"soft\":"+this.getShareInfoJson(softInitQuery)
-                +"\"game\":"+this.getShareInfoJson(gameInitQuery);
-        if(rtnJson.length()>0){
-            rtnJson = rtnJson.substring(0,rtnJson.length()-1);
-        }
-        rtnJson += "}";
-        //打印
-        out.print(rtnJson);
-        out.flush();
-        out.close();
-    }
-
-    protected String getShareInfoJson(String sql){
+        int mark = Integer.parseInt(request.getParameter("mark"));
+        String initQuery = "SELECT * FROM rl_film LIMIT "+mark+",20";
         ConnPool cp = new ConnPool();
         ResultSet rs = null;
-        StringBuilder info = new StringBuilder();
-        info.append("[");
         PreparedStatement pstmt = null;
         Connection conn = null;
+        StringBuilder sb = new StringBuilder();
         try{
-            conn = cp.getConn();
-            pstmt = conn.prepareStatement(sql);
+            conn = new ConnPool().getConn();
+            pstmt = conn.prepareStatement(initQuery);
             rs = pstmt.executeQuery();
             while (rs.next()){
-                info.append("{\"id\":\""+rs.getInt(1)+"\",")
-                    .append("\"name\":\""+rs.getString(2)+"\"},");
+                sb.append("<div class=\"col-sm-4 col-md-3\">")
+                        .append("<div class=\"thumbnail\">")
+                        .append("<img src=\""+rs.getString(10)+"\">")//TODO
+                        .append("<div class=\"caption\">")
+                        .append("<h3>"+rs.getString(2)+"</h3>")
+                        .append("<p>简介："+rs.getString(11)+"</p>")//TODO
+                        .append("</div>")
+                        .append("<div style=\"text-align: center\">")
+                        .append("<p><a href=\""+rs.getString(3)+"\" class=\"btn btn-success\" role=\"button\">下载</a> </p></div>")
+                        .append("</div>")
+                        .append("</div>");
             }
-            if(info.length()>2){
-                info.deleteCharAt(info.lastIndexOf(","));
-            }
-            info.append("],");
         }
         catch (SQLException e){
             e.printStackTrace();
@@ -87,6 +75,8 @@ public class IndexInit extends HttpServlet {
                 }
             }
         }
-        return info.toString();
+        out.print(sb);
+        out.flush();
+        out.close();
     }
 }
