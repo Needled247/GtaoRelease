@@ -13,11 +13,11 @@
         <url-pattern>/IndexInit</url-pattern>
     </servlet-mapping>
     <servlet>
-        <servlet-name>FilmInit</servlet-name>
-        <servlet-class>servlet.FilmInit</servlet-class>
+        <servlet-name>DetailInit</servlet-name>
+        <servlet-class>servlet.DetailInit</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>FilmInit</servlet-name>
+        <servlet-name>DetailInit</servlet-name>
         <url-pattern>/FilmInit</url-pattern>
     </servlet-mapping>
     <welcome-file-list>

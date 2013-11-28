@@ -1,8 +1,8 @@
 var mark = 0;
 $(function(){
-    var tbl = "rl_film";
+    var tbl = "rl_soft";
     $.post("DetailInit",{mark:mark,tbl:tbl},function(data){
-        $("#film_block").append(data);
+        $("#soft_block").append(data);
         mark += 20;
     })
 });

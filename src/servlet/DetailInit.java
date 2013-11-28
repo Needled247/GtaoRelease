@@ -19,7 +19,7 @@ import java.sql.SQLException;
  * Date: 13-11-26
  * Time: ÏÂÎç4:40
  */
-public class FilmInit extends HttpServlet {
+public class DetailInit extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         this.doPost(request,response);
@@ -27,10 +27,11 @@ public class FilmInit extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String tbl = request.getParameter("tbl");
         response.setContentType("text/html;charset=GBK");
         PrintWriter out = response.getWriter();
         int mark = Integer.parseInt(request.getParameter("mark"));
-        String initQuery = "SELECT * FROM rl_film LIMIT "+mark+",20";
+        String initQuery = "SELECT * FROM "+tbl+" LIMIT "+mark+",20";
         ConnPool cp = new ConnPool();
         ResultSet rs = null;
         PreparedStatement pstmt = null;
@@ -43,10 +44,10 @@ public class FilmInit extends HttpServlet {
             while (rs.next()){
                 sb.append("<div class=\"col-sm-4 col-md-3\">")
                         .append("<div class=\"thumbnail\">")
-                        .append("<img src=\""+rs.getString(10)+"\">")//TODO
+                        .append("<img src=\""+rs.getString(10)+"\">")
                         .append("<div class=\"caption\">")
                         .append("<h3>"+rs.getString(2)+"</h3>")
-                        .append("<p>¼ò½é£º"+rs.getString(11)+"</p>")//TODO
+                        .append("<p>¼ò½é£º"+rs.getString(11)+"</p>")
                         .append("</div>")
                         .append("<div style=\"text-align: center\">")
                         .append("<p><a href=\""+rs.getString(3)+"\" class=\"btn btn-success\" role=\"button\">ÏÂÔØ</a> </p></div>")
