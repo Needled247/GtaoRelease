@@ -18,7 +18,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>DetailInit</servlet-name>
-        <url-pattern>/FilmInit</url-pattern>
+        <url-pattern>/DetailInit</url-pattern>
     </servlet-mapping>
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>

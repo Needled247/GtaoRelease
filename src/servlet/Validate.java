@@ -14,12 +14,12 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 /**
- * µÁ”∞œ‘ æ“≥
+ * µ«¬Ω–£—È
  * User: JH
- * Date: 13-11-26
- * Time: œ¬ŒÁ4:40
+ * Date: 13-11-29
+ * Time: œ¬ŒÁ5:27
  */
-public class DetailInit extends HttpServlet {
+public class Validate extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         this.doPost(request,response);
@@ -27,46 +27,35 @@ public class DetailInit extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String tbl = request.getParameter("tbl");
         response.setContentType("text/html;charset=GBK");
         PrintWriter out = response.getWriter();
-        int mark = Integer.parseInt(request.getParameter("mark"));
-        String initQuery = "SELECT * FROM "+tbl+" LIMIT "+mark+",20";
+        String userid = request.getParameter("userid");
+        String userpass = request.getParameter("userpass");
+        String query = "SELECT USERNAME,LEVEL FROM rl_admin WHERE USERID=? AND USERPASS=?";
         ConnPool cp = new ConnPool();
         ResultSet rs = null;
         PreparedStatement pstmt = null;
         Connection conn = null;
-        StringBuilder sb = new StringBuilder();
+        String username = "",level = "";
+        String rtnHtml = "";
         try{
             conn = cp.getConn();
-            pstmt = conn.prepareStatement(initQuery);
-            rs = pstmt.executeQuery();
-            while (rs.next()){
-                sb.append("<div class=\"col-sm-4 col-md-3\">")
-                        .append("<div class=\"thumbnail\">")
-                        .append("<img src=\""+rs.getString(10)+"\">")
-                        .append("<div class=\"caption\">")
-                        .append("<h3>"+rs.getString(2)+"</h3>")
-                        .append("<p>ºÚΩÈ£∫"+rs.getString(11)+"</p>")
-                        .append("</div>")
-                        .append("<div style=\"text-align: center\">")
-                        .append("<p><a href=\""+rs.getString(3)+"\" class=\"btn btn-success\" role=\"button\">œ¬‘ÿ</a> </p></div>")
-                        .append("</div>")
-                        .append("</div>");
+            pstmt.setString(1,userid);
+            pstmt.setString(2,userpass);
+            rs = pstmt.executeQuery(query);
+            if (rs.next()){
+                username = rs.getString(1);
+                level = rs.getString(2);
+                rtnHtml = username+","+level;
+            }
+            else {
+                rtnHtml = "’À∫≈/√‹¬Î¥ÌŒÛ£¨«Î÷ÿ–¬ÃÓ–¥°£";
             }
         }
         catch (SQLException e){
             e.printStackTrace();
         }
         finally {
-            if(pstmt!=null){
-                try{
-                    pstmt.close();
-                }
-                catch (SQLException e){
-                    e.printStackTrace();
-                }
-            }
             if(conn!=null){
                 try{
                     conn.close();
@@ -75,8 +64,24 @@ public class DetailInit extends HttpServlet {
                     e.printStackTrace();
                 }
             }
+            if(pstmt!=null){
+                try{
+                    pstmt.close();
+                }
+                catch (SQLException e){
+                    e.printStackTrace();
+                }
+            }
+            if(rs!=null){
+                try{
+                    rs.close();
+                }
+                catch (SQLException e){
+                    e.printStackTrace();
+                }
+            }
         }
-        out.print(sb);
+        out.print(rtnHtml);
         out.flush();
         out.close();
     }
